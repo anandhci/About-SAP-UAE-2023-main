@@ -9,7 +9,10 @@ import SwiftUI
 
 struct AnandView: View {
     var body: some View {
+        VStack{
             Text("I'm Anand")
+                .font(.largeTitle)
+        }
     }
 }
 
